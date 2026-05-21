@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("pink-heart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.gif{
+    height: 100%;
+    width: 100%; 
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin: 15px 0;
+    -webkit-text-stroke: 2px #000 ;
+}
+
+.btn-group{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid black;
+}
+
+.yes-btn{
+    margin-left: -200px;
+    background: white;
+    color: black;
+}
+
+.no-btn{
+    margin-right: -200px;
+    background-color: white;
+    color: black;
+}
